@@ -3,9 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body,html{
     font-family: sans-serif;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    height: 100%; 
+    width: 100%; 
+    
 }
+.container{
+    background-image: url('./images/pexels-sound-on-3394650.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 
 .navbar {
     display: flex;
@@ -167,34 +181,9 @@ img {
     transform: rotateY(90deg) rotateX(60deg);
 }
 
-.imagedetailsof {
-
-    position: relative;
-    transform-style: preserve-3d;
-    transform: rotateY(0deg);
-    transition: 0.8s ease;
-    margin-left: -80%;
-
-}
 
 
-.image02_front,
-.image02_back {
-    position: absolute;
-    backface-visibility: hidden;
-    
 
-
-}
-
-.image02_back {
-    transform: rotateY(180deg);
-    
-}
-
-.imagedetailsof:hover {
-    transform: rotateY(180deg);
-}
 
 .image03 {
     transform-style: preserve-3d;
@@ -287,9 +276,11 @@ img {
     .details {
         display: grid;
         grid-template-columns: 1fr;
+        
     }
+    
 
-
+    
 
     .nav-links.activ {
         display: flex;
