@@ -96,11 +96,13 @@ img {
     height: 300px;
     margin: 2%;
     background-color: #333;
+    border-radius: 30px;
 
 }
 
 .image1:hover {
     transform: rotate(20deg);
+    transition: 0.8s ease;
 
 }
 
@@ -108,51 +110,61 @@ img {
     width: 300px;
     height: 300px;
     margin-left: 2%;
+    border-radius: 30px;
 }
 
 .image2:hover {
     transform: translate(10px, 50px);
+    transition: 0.8s ease;
 }
 
 .image3 {
     width: 300px;
     height: 300px;
     margin-left: 2%;
+    border-radius: 30px;
 }
 
 .image3:hover {
     transform: rotate(-20deg);
+    transition: 0.8s ease;
 }
 
 .image4 {
     width: 300px;
     height: 300px;
     margin-left: 2%;
+    border-radius: 30px;
 }
 
 .image4:hover {
-    transform: scale(2, 3);
+    transform: scale(1, 1.5);
+    transition: 0.8s ease;
 }
 
 .image5 {
     width: 300px;
     height: 300px;
     margin-left: 2%;
+    border-radius: 30px;
 
 }
 
 .image5:hover {
     transform: scale(0.5, 0.5);
+    transition: 0.8s ease;
 }
 
 .image6 {
     width: 300px;
     height: 300px;
+    border-radius: 30px;
 
 }
 
 .image6:hover {
     transform: scaleX(0.5);
+    transition: 0.8s ease;
 }
 
 .transform {
@@ -173,12 +185,13 @@ img {
 .image01 {
     transform-style: preserve-3d;
     transition: 0.8s ease;
+    border-radius: 30px;
     
 
 }
 
 .image01:hover {
-    transform: rotateY(90deg) rotateX(60deg);
+    transform: rotateY(85deg) rotateX(55deg);
 }
 
 
@@ -188,6 +201,7 @@ img {
 .image03 {
     transform-style: preserve-3d;
     transition: 0.8s ease;
+    border-radius: 30px;
 }
 
 .image03:hover {
@@ -198,6 +212,7 @@ img {
 .image04 {
     transform-style: preserve-3d;
     transition: 0.8s;
+    border-radius: 30px;
 }
 
 .image04:hover {
@@ -208,20 +223,22 @@ img {
 .image05 {
     transform-style: preserve-3d;
     transition: 0.8s;
+    border-radius: 30px;
 
 }
 
 .image05:hover {
-    transform: skew(40deg, 40deg);
+    transform: skew(25deg, 25deg);
 }
 
 .image06 {
     transform-style: preserve-3d;
     transition: 0.8s;
+    border-radius: 30px;
 }
 
 .image06:hover {
-    transform: scale3d(.5, 2.5, 4.5);
+    transform: scale3d(1.5, 1.2, 1.6);
 }
 
 .last_Div {
